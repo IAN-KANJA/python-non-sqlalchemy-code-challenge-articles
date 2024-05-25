@@ -8,13 +8,17 @@ class Author:
     def __init__(self, name):
         self.name = name
 
-    def articles(self):
-        pass
+    def articles(self,author):
+        self.author = author
+        
 
     def magazines(self):
+        
         pass
 
     def add_article(self, magazine, title):
+        self.magazine = magazine
+        self.title = title
         pass
 
     def topic_areas(self):
